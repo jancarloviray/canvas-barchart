@@ -7,3 +7,5 @@ TODO
 - clean, organize and modularize code
 - allow usages of options: title, legend, backgroundColor, font, fontSize, gridColor, etc...
 - adjust height of bars to autoresize on canvas height.
+
+[![javascript barchart](https://raw.github.com/jancarloviray/Canvas-Barchart/master/screenshot.jpg)]
