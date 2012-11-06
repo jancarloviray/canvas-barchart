@@ -9,4 +9,4 @@ TODO
 - adjust height of bars to autoresize on canvas height.
 
 ![javascript barchart](https://raw.github.com/jancarloviray/Canvas-Barchart/master/screenshot.jpg)
-[![solarized dualmode](https://raw.github.com/jancarloviray/Canvas-Barchart/master/screenshot.jpg)](#features)\
+[![solarized dualmode](https://raw.github.com/jancarloviray/Canvas-Barchart/master/screenshot.jpg)](#features)
