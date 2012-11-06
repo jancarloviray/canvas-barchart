@@ -1,10 +1,10 @@
+//code by Jan Carlo Viray virayjancarlo@yahoo.com
+
 //OPTIONS:
 //barGap 5, barWidth 20, barPosX 5
 //backgroundColor, fontColor, fontSettings, gridColor
 
-document.addEventListener('DOMContentLoaded',BarChart);
-
-var BarChart = (function() {
+var BarChart = ( function() {
 	
 	console.log('loaded');
 	var canvas, ctx, data, options,
@@ -27,6 +27,7 @@ var BarChart = (function() {
 		prepareCanvas();
 		drawGrid();
 		drawGraph();
+		drawTitle();
 	}
 
 	function prepareCanvas() {
@@ -72,6 +73,16 @@ var BarChart = (function() {
 			ctx.stroke();
 			currentGridY += gridGap;
 		}  
+	}
+	
+	function drawTitle(){
+		ctx.fillStyle = 'rgb(255,255,255)';
+		ctx.font = options.titleFontSettings || 'bold 18px Arial';
+		ctx.fillText( 
+			options.title || 'Sample Data', 
+			options.titlePosX || 10,
+			options.titlePosY || 30
+		);
 	}
   
   return {
