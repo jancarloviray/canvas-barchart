@@ -1,0 +1,8 @@
+Simple Canvas Barchart
+----------------------
+I made this as I was trying to learn HTML5 Canvas. It's simple, to-the-point barchart. It auto-resizes based on amount of data, and canvas height and width. At its current state, it's usable, but not yet polished.
+
+TODO
+----
+- clean, organize and modularize code
+- allow usages of options: title, legend, backgroundColor, font, fontSize, gridColor, etc...
