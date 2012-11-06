@@ -8,5 +8,6 @@ TODO
 - allow usages of options: title, legend, backgroundColor, font, fontSize, gridColor, etc...
 - adjust height of bars to autoresize on canvas height.
 - add Screenshot
+- Organize files to BarChartJS.js, and make index example file.
 
 ![javascript barchart](https://raw.github.com/jancarloviray/Canvas-Barchart/master/screenshot.jpg)
